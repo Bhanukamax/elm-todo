@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+background-color: #e3e3e350;
+}
+
+.title {
+  font-size: 100px;
+  color: rgba(200, 100, 100, 0.5);
+  text-align: center;
+}
+
+.app {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 5px 50px #44444450;
+}
+
+.todo {
+  padding: 15px 30px;
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  border-bottom: 2px solid #eee;
+  color: #626060;
+  font-size: 1.5em;
+}
+
+
+.todo__input {
+    width: 100%;
+    padding: 20px 45px;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+}
